@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Qn.3.css" />
+  </head>
+  <body>
+    <div class="container-contact">
+		<div class="wrap-contact">
+			<div class="contact-form-title" style="background-image: url(images/bg-01.jpg);">
+				<span class="contact-form-title-1">
+					Contact Us
+				</span>
+			</div>
+			<form class="contact-form validate-form">
+				<div class="wrap-input validate-input">
+					<span class="label-input">Full Name:</span>
+					<input class="input" type="text" name="name" placeholder="Enter full name" required>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input">
+					<span class="label-input">Email:</span>
+					<input class="input" type="email" name="email" placeholder="Enter email addess" required>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input" >
+					<span class="label-input">Phone:</span>
+					<input class="input"type="text" pattern="[789][0-9]{9}" placeholder="Enter phone number"required maxlength="10">
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="wrap-input validate-input">
+					<span class="label-input">Message:</span>
+					<textarea class="input" name="message" placeholder="Your Comment..." required minlength="10" maxlength="250"></textarea>
+					<span class="focus-input"></span>
+				</div>
+
+				<div class="container-contact-form-btn">
+					<button class="contact-form-btn">
+						<span>
+							Submit
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</html>
