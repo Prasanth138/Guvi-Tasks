@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 40%;
+      }
+      .table {
+        display: flex;
+        justify-content: center;
+      }
+      td {
+        text-align: center;
+        border: 2px solid rgb(69, 73, 69);
+        padding: 15px;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Health Chart</p>
+    <div class="table">
+      <table>
+        <tr>
+          <td rowspan="2">State of Healtd</td>
+          <td colspan="2">Fasting Value</td>
+          <td>After Eating</td>
+        </tr>
+        <tr>
+          <td>Minimum</td>
+          <td>Maximum</td>
+          <td>2 hours after eating</td>
+        </tr>
+        <tr>
+          <td>Healtdy</td>
+          <td>70</td>
+          <td>100</td>
+          <td>Less tdan 140</td>
+        </tr>
+        <tr>
+          <td>Pre-Diabetes</td>
+          <td>101</td>
+          <td>126</td>
+          <td>140 to 200</td>
+        </tr>
+        <tr>
+          <td>Diabetes</td>
+          <td>More tdan 126</td>
+          <td>N/A</td>
+          <td>More tdan 200</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
